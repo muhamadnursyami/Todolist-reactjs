@@ -1,0 +1,97 @@
+
+.todo{
+    text-align: center;
+    position: relative;
+    max-width: 480px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 85px auto 50px;
+    background-color: #6c9ebd;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+
+input[type="text"]{
+    outline: none;
+    width: 40%;
+    padding: 10px 10px;
+    margin-right: 10px;
+    background-color: #BAD7E9;
+    color: #443C68;
+    border: 1px solid #443C68;
+    border-radius: 4px;
+}
+
+
+input[type="text"]:focus{
+   
+    background-color: #BAD7E9;
+    border-radius: 4px;
+   
+}
+button[type="submit"]{
+    padding: 10px;
+    background-color: #3E6D9C;
+    border-radius: 4px;
+    color: aliceblue;
+    border: none;
+}
+
+input[type="checkbox"]{
+    margin-right: 10px;
+}
+button:hover{
+   border: 1px solid #443C68;
+}
+
+
+.task{
+    display: flex;
+    align-items: center;
+    width:80%;
+    background-color: #BAD7E9;
+    padding: 20px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    position: relative;
+    left: 20px;
+
+}
+button{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #3E6D9C;
+    border-radius: 4px;
+    color: aliceblue;
+    border: none;
+    margin-left: 10px;
+}
+.tombol{
+margin-top: 5px;
+    background-color: #3E6D9C;
+    border-radius: 4px;
+    color: aliceblue;
+    border: none;
+    padding: 5px 10px;
+}
+.tombol:hover{
+  
+    border: none;
+   
+}
+.tombol-kanan:hover{
+  
+    border: none;
+   
+}
+.tombol-kanan{
+    
+    background-color: #3E6D9C;
+    border-radius: 4px;
+    color: aliceblue;
+    border: none;
+    padding: 5px 10px;
+}
+
